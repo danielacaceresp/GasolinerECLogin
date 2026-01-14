@@ -1,0 +1,51 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Animación de carga */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Estilos para inputs */
+input::placeholder {
+  color: #999;
+}
+
+input:focus {
+  box-shadow: 0 0 0 3px rgba(216, 67, 21, 0.1);
+}
+
+/* Estilos para botones */
+button:disabled {
+  opacity: 0.6;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .max-w-md {
+    max-width: 100%;
+  }
+}
