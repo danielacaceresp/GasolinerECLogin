@@ -203,12 +203,13 @@ const GasolinerECLogin = () => {
 
           {/* Enlace Olvidé contraseña */}
           <div className="text-right">
-            <a
-              href="#"
-              className="text-sm text-primary hover:text-orange-700 font-medium transition-colors"
+            <button
+              type="button"
+              onClick={() => console.log('Recuperar contraseña')}
+              className="text-sm text-primary hover:text-orange-700 font-medium transition-colors bg-none border-none cursor-pointer p-0"
             >
               ¿Olvidaste tu Contraseña?
-            </a>
+            </button>
           </div>
 
           {/* Botón Ingresar */}
@@ -236,12 +237,13 @@ const GasolinerECLogin = () => {
         <div className="text-center mt-6">
           <p className="text-gray-600 text-sm">
             ¿No tienes una cuenta?{' '}
-            <a
-              href="#"
-              className="text-primary font-bold hover:text-orange-700 transition-colors"
+            <button
+              type="button"
+              onClick={() => console.log('Ir a registro')}
+              className="text-primary font-bold hover:text-orange-700 transition-colors bg-none border-none cursor-pointer p-0"
             >
               Regístrate aquí
-            </a>
+            </button>
           </p>
         </div>
 
