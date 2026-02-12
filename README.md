@@ -66,7 +66,7 @@ npm build
 - **Gris Claro**: #F5F5F5
 - **Borde Gris**: #E0E0E0
 
-## 📱 Responsividad
+##  Responsividad
 
 El componente es completamente responsivo:
 - **Móvil**: Padding ajustado, fuentes legibles
@@ -82,7 +82,7 @@ El componente es completamente responsivo:
 - Implementar rate limiting
 - Sanitizar inputs
 
-## 📝 Uso
+##  Uso
 
 ```jsx
 import GasolinerECLogin from './components/GasolinerECLogin';
@@ -94,7 +94,7 @@ function App() {
 export default App;
 ```
 
-## 🚀 Próximas Mejoras
+##  Próximas Mejoras
 
 - [ ] Integración con API real
 - [ ] Autenticación OAuth
