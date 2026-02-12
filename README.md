@@ -2,24 +2,24 @@
 
 Componente de login pixel-perfect basado en el diseño de Figma de GasolinerEC.
 
-## 🎨 Características
+##  Características
 
-✅ **Diseño Pixel-Perfect**: Replica exacta del diseño de Figma
-✅ **Responsivo**: Se adapta a móvil y escritorio
-✅ **Validaciones**: Email y contraseña con mensajes de error
-✅ **Visibilidad de Contraseña**: Toggle de ojo para mostrar/ocultar
-✅ **Estado de Carga**: Simulación de API con spinner
-✅ **Social Login**: Botones para Facebook, Google, Twitter, Apple
-✅ **Accesibilidad**: Etiquetas, placeholders y ARIA labels
+ **Diseño Pixel-Perfect**: Replica exacta del diseño de Figma
+ **Responsivo**: Se adapta a móvil y escritorio
+ **Validaciones**: Email y contraseña con mensajes de error
+ **Visibilidad de Contraseña**: Toggle de ojo para mostrar/ocultar
+ **Estado de Carga**: Simulación de API con spinner
+ **Social Login**: Botones para Facebook, Google, Twitter, Apple
+ **Accesibilidad**: Etiquetas, placeholders y ARIA labels
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 - **React 18** - Functional Components + Hooks
 - **Tailwind CSS** - Estilos utilitarios
 - **Lucide React** - Iconos SVG
 - **React Icons** - Iconos adicionales (Google, Twitter)
 
-## 📦 Instalación
+## Instalación
 
 ```bash
 # Instalar dependencias
@@ -32,7 +32,7 @@ npm start
 npm build
 ```
 
-## 🎯 Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 ### 1. Gestión de Estado
 - `email`: Captura el correo electrónico
@@ -58,7 +58,7 @@ npm build
 - ✓ Icono de ojo para toggle
 - ✓ Cambio entre input type="password" y type="text"
 
-## 🎨 Paleta de Colores
+##  Paleta de Colores
 
 - **Primario**: #D84315 (Naranja/Rojo)
 - **Secundario**: #4CAF50 (Verde)
@@ -73,9 +73,9 @@ El componente es completamente responsivo:
 - **Tablet**: Layout centrado con max-width
 - **Escritorio**: Diseño completo con sombras y efectos
 
-## 🔐 Seguridad
+## Seguridad
 
-⚠️ **Nota**: Este es un componente de demostración. Para producción:
+ **Nota**: Este es un componente de demostración. Para producción:
 - Implementar HTTPS
 - Validar en backend
 - Usar JWT o sesiones seguras
@@ -105,4 +105,4 @@ export default App;
 
 ## 📄 Licencia
 
-MIT
+Daniela Cáceres
